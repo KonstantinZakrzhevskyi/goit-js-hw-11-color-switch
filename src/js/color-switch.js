@@ -1,15 +1,12 @@
 import colors from '../db/colors.json';
 import refs from '../js/refs';
 
-
 refs.startBtn.addEventListener('click', startCangeColor);
 refs.stopBtn.addEventListener('click', stopCangeColor);
 
 let timerId;
 
 function startCangeColor() {
-  refs.startBtn.disabled = true;
-
   refs.startBtn.disabled = true;
 
    timerId = setInterval(() => {
@@ -21,7 +18,6 @@ function stopCangeColor() {
   clearInterval(timerId);
   refs.startBtn.disabled = false;
 };
-
 
 const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
