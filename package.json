@@ -1,25 +1,25 @@
 {
-  "name": "parcel-deploy",
+  "name": "goit-js-hw-11-color-switch",
   "version": "1.0.0",
-  "description": "## Мастерская: деплой билда от Parcel на GitHub Pages",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-11-color-switch/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KonstantinZakrzhevskyi/parcel-deploy.git"
+    "url": "git+https://github.com/KonstantinZakrzhevskyi/goit-js-hw-11-color-switch.git"
   },
   "keywords": [],
   "author": "KonstantinZakrzhevskyi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KonstantinZakrzhevskyi/parcel-deploy/issues"
+    "url": "https://github.com/KonstantinZakrzhevskyi/goit-js-hw-11-color-switch/issues"
   },
-  "homepage": "https://KonstantinZakrzhevskyi.github.io/parcel-deploy",
+  "homepage": "https://KonstantinZakrzhevskyi.github.io/goit-js-hw-11-color-switch",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-nuke-dist": "^1.0.1"
